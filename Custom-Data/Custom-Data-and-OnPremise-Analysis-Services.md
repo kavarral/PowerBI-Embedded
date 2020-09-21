@@ -46,7 +46,7 @@ CustomData = CustomData()
     var tokenResponse = await client.Reports.GenerateTokenInGroupAsync(WorkspaceId, report.Id, generateTokenRequestParameters);
     
    Note: the value for username can be any value. The filter will be applied by means of the role in Analysis Services based on the custom data that is          passed through. Using AdventureWorksDW tabular model, I used the FirstName to filter on, this could also be something more relevant like Customer ID.  
-   The key is to ensure you are passing username to the effectiveidentity. The value of the username is irrelevant.
+   The key is to ensure you are passing username to the effectiveidentity. The value of the username can be anything.
 
 7.) Create a role in Analysis Services called RoleA. Give the Role Read Permissions.
     Ensure that the account you are using to authenticate to the Analysis Services model is a member of the role
