@@ -55,7 +55,7 @@ CustomData = CustomData()
     Ensure that the account you are using to authenticate to the Analysis Services model is a member of the role
     Add the following DAX Filter (in this example, I am filtering the Customer - FirstName 
     
-    =Customer[Firstname] =CUSTOMDATA()
+    =Customer[Firstname] = CUSTOMDATA()
     
 
 
