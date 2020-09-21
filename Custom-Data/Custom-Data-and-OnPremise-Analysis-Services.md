@@ -23,6 +23,9 @@ CustomData = CustomData()
 4.) Map user names if applicable to authenticate to the tabular model on premise.  Ensure that the user you are authenticating with has admin permissions to the model
 
 5.) Change the data gateway to use custom data. You do not have to add any values here. The custom data will be passed through in the code. 
+    See below for how to map user names for Analysis Services
+    
+   [Manage your data source for Analysis Services](https://docs.microsoft.com/en-us/power-bi/connect-data/service-gateway-enterprise-manage-ssas#map-user-names)
 
 6.) Change the code in the Power BI Embedded sample. This is where it differs from the attached blog posts as the sample projects have changed. 
     In the EmbedService.cs
